@@ -588,9 +588,9 @@
                 tags: ["Demo", "Demo", "Demo", "Demo", "Demo"],
                 author: "Demo Author",
                 category: "Demo Video"
-            }
+            },
                   {
-    id: '1',
+    id: '8',
     title: 'Introduction to Calculus',
     description: 'A comprehensive introduction to differential and integral calculus concepts.',
     videoUrl: 'https://res.cloudinary.com/demo/video/upload/v1234567890/sample-video-1.mp4',
@@ -603,7 +603,7 @@
     category: 'Mathematics'
   },
   {
-    id: '2',
+    id: '9',
     title: 'Linear Algebra Fundamentals',
     description: 'Understanding vectors, matrices, and linear transformations in depth.',
     videoUrl: 'https://res.cloudinary.com/demo/video/upload/v1234567890/sample-video-2.mp4',
