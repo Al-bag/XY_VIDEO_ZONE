@@ -562,7 +562,8 @@
                     })
                 })
             }
-            let C = [{
+            let C = [
+                {
                 id: "1",
                 title: "Demo",
                 description: "A demo description.",
@@ -587,7 +588,86 @@
                 tags: ["Demo", "Demo", "Demo", "Demo", "Demo"],
                 author: "Demo Author",
                 category: "Demo Video"
-            }];
+            }
+                  {
+    id: '1',
+    title: 'Introduction to Calculus',
+    description: 'A comprehensive introduction to differential and integral calculus concepts.',
+    videoUrl: 'https://res.cloudinary.com/demo/video/upload/v1234567890/sample-video-1.mp4',
+    thumbnailUrl: 'https://images.pexels.com/photos/3729557/pexels-photo-3729557.jpeg?auto=compress&cs=tinysrgb&w=800',
+    duration: '15:30',
+    views: 12450,
+    uploadDate: '2024-01-15',
+    tags: ['calculus', 'mathematics', 'derivatives', 'integrals'],
+    author: 'Dr. Sarah Chen',
+    category: 'Mathematics'
+  },
+  {
+    id: '2',
+    title: 'Linear Algebra Fundamentals',
+    description: 'Understanding vectors, matrices, and linear transformations in depth.',
+    videoUrl: 'https://res.cloudinary.com/demo/video/upload/v1234567890/sample-video-2.mp4',
+    thumbnailUrl: 'https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=800',
+    duration: '22:15',
+    views: 8930,
+    uploadDate: '2024-01-10',
+    tags: ['linear algebra', 'vectors', 'matrices', 'transformations'],
+    author: 'Prof. Michael Rodriguez',
+    category: 'Mathematics'
+  },
+  {
+    id: '3',
+    title: 'Statistics and Probability',
+    description: 'Exploring statistical concepts and probability theory with real-world applications.',
+    videoUrl: 'https://res.cloudinary.com/demo/video/upload/v1234567890/sample-video-3.mp4',
+    thumbnailUrl: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800',
+    duration: '18:45',
+    views: 15670,
+    uploadDate: '2024-01-08',
+    tags: ['statistics', 'probability', 'data analysis', 'distributions'],
+    author: 'Dr. Emily Johnson',
+    category: 'Statistics'
+  },
+  {
+    id: '4',
+    title: 'Complex Numbers Explained',
+    description: 'Diving into the world of complex numbers and their geometric interpretations.',
+    videoUrl: 'https://res.cloudinary.com/demo/video/upload/v1234567890/sample-video-4.mp4',
+    thumbnailUrl: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800',
+    duration: '12:20',
+    views: 6780,
+    uploadDate: '2024-01-05',
+    tags: ['complex numbers', 'imaginary', 'algebra', 'geometry'],
+    author: 'Prof. David Kim',
+    category: 'Mathematics'
+  },
+  {
+    id: '5',
+    title: 'Differential Equations',
+    description: 'Solving ordinary and partial differential equations with practical examples.',
+    videoUrl: 'https://res.cloudinary.com/demo/video/upload/v1234567890/sample-video-5.mp4',
+    thumbnailUrl: 'https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=800',
+    duration: '25:10',
+    views: 9230,
+    uploadDate: '2024-01-02',
+    tags: ['differential equations', 'calculus', 'modeling', 'physics'],
+    author: 'Dr. Lisa Zhang',
+    category: 'Mathematics'
+  },
+  {
+    id: '6',
+    title: 'Graph Theory Basics',
+    description: 'Introduction to graphs, trees, and network theory applications.',
+    videoUrl: 'https://res.cloudinary.com/demo/video/upload/v1234567890/sample-video-6.mp4',
+    thumbnailUrl: 'https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=800',
+    duration: '19:30',
+    views: 11240,
+    uploadDate: '2023-12-28',
+    tags: ['graph theory', 'networks', 'algorithms', 'discrete math'],
+    author: 'Prof. Alex Thompson',
+    category: 'Discrete Mathematics'
+  }
+            ];
 
             function _() {
                 let [e, s] = (0, l.useState)(null), [t, r] = (0, l.useState)(""), [n, i] = (0, l.useState)(C);
